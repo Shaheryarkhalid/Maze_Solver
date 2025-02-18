@@ -5,6 +5,7 @@ class Cell:
 
     def __init__(self, win=None):
         self.visited = False
+        self.drawn = False
         self.has_top_wall = True
         self.has_bottom_wall = True
         self.has_right_wall = True
@@ -48,7 +49,7 @@ class Cell:
             self._win.draw_line(line)
 
     def draw_move(self, to_cell, undo=False):
-        fill_color = "red"
+        fill_color = "white"
         if undo:
             fill_color = "gray"
 

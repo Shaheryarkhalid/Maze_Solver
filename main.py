@@ -31,7 +31,7 @@ def main():
     # c3.draw_move(c4, True)
 
     maze = Maze(123, 234, 10, 10, 100, 100, win)
-
+    maze.solve()
     win.wait_for_close()
 
 
