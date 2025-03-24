@@ -14,7 +14,7 @@ This Python project **generates and solves mazes**. It creates randomly generate
 1. Clone the repo:  
    ```sh
    git clone https://github.com/Shaheryarkhalid/Maze_Solver.git  
-   cd maze-solver
+   cd Maze_Solver
    ```
 2. Install dependencies:  
    ```sh
